@@ -2,7 +2,8 @@ baseURL = "https://kaifengwang-sketch.github.io/wkf/"
 languageCode = "zh-cn"
 title = "wkf's blog"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 enableRobotsTXT = true
 
 [params]
