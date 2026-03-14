@@ -1,13 +1,13 @@
-baseURL = "https://kaifengwang-sketch.github.io/"
+baseURL = "https://kaifengwang-sketch.github.io/wkf/"
 languageCode = "zh-cn"
-title = "王凯峰的技术博客"
+title = "wkf's blog"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
 
 [params]
   env = "production"
-  author = "王凯峰"
+  author = "wkf"
   description = "8年 Go 工程师，记录 AI 时代的学习与成长"
   keywords = ["Go", "分布式系统", "AI", "深度学习", "学习笔记"]
   defaultTheme = "auto"
@@ -21,8 +21,8 @@ enableRobotsTXT = true
   UseHugoToc = true
 
   [params.homeInfoParams]
-    Title = "你好，我是王凯峰"
-    Content = "8年 Go 工程师，正在系统学习 AI 与分布式系统。这里记录我的学习笔记、项目实战和思考感悟。"
+    Title = "wkf's blog"
+    Content = "8年 Go 工程师，正在系统学习 AI 与分布式系统。这里记录学习笔记、项目实战和思考感悟。"
 
   [[params.socialIcons]]
     name = "github"
