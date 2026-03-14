@@ -22,7 +22,6 @@ enableRobotsTXT = true
 
   [params.homeInfoParams]
     Title = "wkf's blog"
-    Content = "8年 Go 工程师，正在系统学习 AI 与分布式系统。这里记录学习笔记、项目实战和思考感悟。"
 
   [[params.socialIcons]]
     name = "github"
