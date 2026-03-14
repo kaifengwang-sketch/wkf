@@ -1,0 +1,65 @@
+baseURL = "https://wangkaifeng.github.io/"
+languageCode = "zh-cn"
+title = "王凯峰的技术博客"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  author = "王凯峰"
+  description = "8年 Go 工程师，记录 AI 时代的学习与成长"
+  keywords = ["Go", "分布式系统", "AI", "深度学习", "学习笔记"]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "你好，我是王凯峰"
+    Content = "8年 Go 工程师，正在系统学习 AI 与分布式系统。这里记录我的学习笔记、项目实战和思考感悟。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/wangkaifeng"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
