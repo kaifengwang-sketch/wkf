@@ -1,4 +1,4 @@
-baseURL = "https://wangkaifeng.github.io/"
+baseURL = "https://kaifengwang-sketch.github.io/"
 languageCode = "zh-cn"
 title = "王凯峰的技术博客"
 theme = "PaperMod"
@@ -26,7 +26,7 @@ enableRobotsTXT = true
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/wangkaifeng"
+    url = "https://github.com/kaifengwang-sketch"
 
 [menu]
   [[menu.main]]
